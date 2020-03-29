@@ -5,7 +5,8 @@ import { User } from './src/db/model';
 
 const app = express();
 
-User.sync();
+// migration commands - only execute if for the first time you are building the db
+// User.sync();
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
