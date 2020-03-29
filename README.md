@@ -1,4 +1,4 @@
-# express-api-typescript (just another expressjs boilerplate)
+# express-api-typescript
 ExpressJS API, Typescript, Sequelize, ESlint, Prettier, VSCode
 
 # Motivations
